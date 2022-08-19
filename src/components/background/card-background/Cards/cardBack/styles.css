@@ -1,0 +1,6 @@
+.back-section {
+  border: 2px solid green;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,10 @@
+.background-section {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+@media only screen and (max-width: 700px) {
+  .background-section {
+    grid-template-columns: 100%;
+  }
+}

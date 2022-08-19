@@ -1,9 +1,9 @@
 import "./styles.css";
-
+import { Background } from "./components/background/background";
 export default function App() {
   return (
     <div className="App">
-      <div class="attribution">
+      {/* <div class="attribution">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
@@ -17,7 +17,8 @@ export default function App() {
           Your Name Here
         </a>
         .
-      </div>
+      </div> */}
+      <Background />
     </div>
   );
 }
